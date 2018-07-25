@@ -6,6 +6,6 @@
 ### 使用方法
 第一步：创建具有获取网络数据的接口=====Retrofit的接口<br>
 第二部：创建XXXAPI继承自BaseApi，复写apply和getObserable方法。<br>
-&emsp;&emsp;apply方法：负责将ResponseBody转为需要的类型<br>
-&emsp;&emsp;getObserable方法：负责获取第一步接口中的定义的相对应的Obserable对象<br>
+&emsp;&emsp;&emsp;&emsp;apply方法：负责将ResponseBody转为需要的类型<br>
+&emsp;&emsp;&emsp;&emsp;getObserable方法：负责获取第一步接口中的定义的相对应的Obserable对象<br>
 第三步：通过HttpManager的doHttpDeal方法。
